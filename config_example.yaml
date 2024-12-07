@@ -1,0 +1,14 @@
+openai:
+  api_key: "your_openai_api_key"
+  base_url: "https://api.openai.com/v1"
+  model: "gpt-4o" # the model you want to use
+
+llama:
+  api_key: "your_llama_api_key"
+  base_url:: "https://api.llama-api.com"
+  model: "llama3.1-70b" # the model you want to use
+
+gemini:
+  api_key: "your_gemini_api"
+  base_url: "https://api.gemini.com"
+  model: "gemini-1.5-flash" # the model you want to use
