@@ -85,17 +85,3 @@ class Judger:
         response = model.generate_content(analysis_prompt)
         return response.text
 
-
-# if __name__ == "__main__":
-#     user_prompt = "Who were the founders of Microsoft?"
-
-#     agent1 = Agent("openai")
-#     agent2 = Agent("llama")
-
-#     print("Calling OpenAI:")
-#     openai_response = agent1.get_answer(user_prompt)
-#     print(f"OpenAI Response: {openai_response}")
-
-#     print("\nCalling LLaMA:")
-#     llama_response = agent2.get_answer(user_prompt)
-#     print(f"LLaMA Response: {llama_response}")
